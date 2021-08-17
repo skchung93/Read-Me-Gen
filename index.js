@@ -87,7 +87,7 @@ ${answers.tests}
 (https://opensource.org/licenses/${answers.license})
 
 #### Email & Github <a name="contact"></a>
-${answers.email}
+${answers.email} </br>
 ${answers.github}  
 `;
 

@@ -12,16 +12,16 @@
 - [Email & Github](#contact)
 
 ### DESCRIPTION <a name="description"></a>
-This is a README generator so taht I can quickly create a professional README for new projects
+This is a ReadMe Generator so that I can quickly create a professional README for new projects.
 
 ### Installation Instructions <a name="introduction"></a>
-Download this repository. Install the inquirer and fs node modules (for example, "npm install inquirer). Run the file by typing node infex into your terminal.
+Download this repository. Install the inquirer and FS node modules (For example, "npm install inquirer"). Run the file by typing "node index" into your terminal.
 
 ### Usage Guide <a name="usage"></a>
-Answer the questsions accordingly and a README file will be created
+Answer the questions and prompts accordingly and a README file will be created.
 
 ### How to Contribute <a name="contribution"></a>
-If you'd like to contribute please send an email to SKCHUNG93@gmail.com or message me on github.
+If you'd like to contribute please send an email to SKCHUNG93@Gmail.com or message me on github.
 
 ### How to Test the Application <a name="test"></a>
 Have fun testing out the code :)
@@ -31,5 +31,5 @@ Have fun testing out the code :)
 (https://opensource.org/licenses/MIT)
 
 #### Email & Github <a name="contact"></a>
-SKCHUNG93@GMAIL.COM
+SKCHUNG93@GMAIL.COM </br>
 https://github.com/skchung93/  
