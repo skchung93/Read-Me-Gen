@@ -54,10 +54,9 @@ const questions =[
 
 //ReadME generator using template literals
 const generateReadMe = (answers) => 
-    `
-    # **${answers.title}**
+    `# **${answers.title}**
 
-    ###Table of Contents
+    ### Table of Contents
     - [Description](#description)
     - [Installation](#installation)
     - [Usage](#usage)
@@ -82,10 +81,7 @@ const generateReadMe = (answers) =>
 
     #### Email & Github
     ${answers.email}
-    ${answers.github}
-
-    
-    
+    ${answers.github}  
     `;
 
 //Function to prompt with questions and build the README
