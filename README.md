@@ -1,5 +1,5 @@
 
-    # **ReadMe Generator**
+    # ReadMe Generator
 
     ### Table of Contents
     - [Description](#description)
