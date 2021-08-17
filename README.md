@@ -1,33 +1,35 @@
+# **ReadMe Generator**
 
-    # ReadMe Generator
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-    ### Table of Contents
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributors](#contribution)
-    - [Test](#test)
-    - [License](#license)
+### Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contribution)
+- [Test](#test)
+- [License](#license)
+- [Email & Github](#contact)
 
-    ### DESCRIPTION
-    This is a README generator so that I can quickly create a professional README for new projects
+### DESCRIPTION <a name="description"></a>
+This is a README generator so taht I can quickly create a professional README for new projects
 
-    ### Installation Instructions
-    Download this respository. Install the inquirer and FS node modules (for example, "npm install inquirer"). Run the file by typing node index into your terminal.
+### Installation Instructions <a name="introduction"></a>
+Download this repository. Install the inquirer and fs node modules (for example, "npm install inquirer). Run the file by typing node infex into your terminal.
 
-    ### Usage Guide
-    Answer the questions accordingly and a README File will be created
+### Usage Guide <a name="usage"></a>
+Answer the questsions accordingly and a README file will be created
 
-    ### How to Contribute
-    If you'd like to contribute please send an email to SKCHUNG93@GMAIL.com or message me on github
+### How to Contribute <a name="contribution"></a>
+If you'd like to contribute please send an email to SKCHUNG93@gmail.com or message me on github.
 
-    ### How to Test the Application
-    undefined
+### How to Test the Application <a name="test"></a>
+Have fun testing out the code :)
 
-    #### Email & Github
-    SKCHUNG93@GMAIL.COM
-    SKCHUNG93
+### Licenses <a name="license"></a>
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+(https://opensource.org/licenses/MIT)
 
-    
-    
-    
+#### Email & Github <a name="contact"></a>
+SKCHUNG93@GMAIL.COM
+https://github.com/skchung93/  

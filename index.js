@@ -38,7 +38,7 @@ const questions =[
         type: 'list',
         name: 'license',
         message: 'Does your project need a license?',
-        choices: ['MIT License', 'Apache', 'GPL'],
+        choices: ['MIT', 'Apache', 'GPL'],
     },
     {
         type: 'input',
@@ -54,35 +54,42 @@ const questions =[
 
 //ReadME generator using template literals
 const generateReadMe = (answers) => 
-    `# **${answers.title}**
+`# **${answers.title}**
 
-    ### Table of Contents
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributors](#contribution)
-    - [Test](#test)
-    - [License](#license)
+![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)
 
-    ### DESCRIPTION
-    ${answers.description}
+### Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contribution)
+- [Test](#test)
+- [License](#license)
+- [Email & Github](#contact)
 
-    ### Installation Instructions
-    ${answers.installation}
+### DESCRIPTION <a name="description"></a>
+${answers.description}
 
-    ### Usage Guide
-    ${answers.usage}
+### Installation Instructions <a name="introduction"></a>
+${answers.installation}
 
-    ### How to Contribute
-    ${answers.contribution}
+### Usage Guide <a name="usage"></a>
+${answers.usage}
 
-    ### How to Test the Application
-    ${answers.test}
+### How to Contribute <a name="contribution"></a>
+${answers.contribution}
 
-    #### Email & Github
-    ${answers.email}
-    ${answers.github}  
-    `;
+### How to Test the Application <a name="test"></a>
+${answers.tests}
+
+### Licenses <a name="license"></a>
+![License: ${answers.license}](https://img.shields.io/badge/License-${answers.license}-yellow.svg)
+(https://opensource.org/licenses/${answers.license})
+
+#### Email & Github <a name="contact"></a>
+${answers.email}
+${answers.github}  
+`;
 
 //Function to prompt with questions and build the README
 function ReadMeBuilder(){
@@ -96,7 +103,7 @@ function ReadMeBuilder(){
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('README.md', data, (err) =>
+    fs.writeFile(fileName, data, (err) =>
         err ? console.log(err) : console.log('Success!'));
 };
 
